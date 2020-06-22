@@ -12,11 +12,11 @@ namespace Exam
         {
             List<Product> arrProduct = new List<Product>();
             Book bk1 = new Book(1, "Book1", 99.99, "ABC");
-            Book bk2 = new Book(2, "Book2", 10.99, "ABC");
+            Book bk2 = new Book(2, "Book2", 50.99, "ABC");
             Book bk3 = new Book(3, "Book3", 20.99, "ABC");
-            MobilePhone mb1 = new MobilePhone(4, "Iphone 3", 999.99, "Apple");
-            MobilePhone mb2 = new MobilePhone(5, "Iphone 4", 1999.99, "Apple");
-            MobilePhone mb3 = new MobilePhone(6, "Iphone 5", 2999.99, "Apple");
+            MobilePhone mb1 = new MobilePhone(4, "Samsung S3", 999.99, "Samsung");
+            MobilePhone mb2 = new MobilePhone(5, "Samsung S4", 1099.99, "Samsung");
+            MobilePhone mb3 = new MobilePhone(6, "Samsung S5", 3099.99, "Samsung");
 
             arrProduct.Add(bk1);
             arrProduct.Add(bk2);
@@ -24,9 +24,8 @@ namespace Exam
             arrProduct.Add(mb1);
             arrProduct.Add(mb2);
             arrProduct.Add(mb3);
-            Console.WriteLine(arrProduct.Count);
-            double totalBookTax = 0;
 
+            double totalBookTax = 0;
             double totalMobileTax = 0;
             double totalTax = 0;
             
@@ -45,7 +44,7 @@ namespace Exam
             Console.WriteLine("Total book tax: " + totalBookTax);
             Console.WriteLine("Total mobile tax: " + totalMobileTax);
             totalTax = totalBookTax + totalMobileTax;
-            Console.WriteLine("Total Tax is: " + totalTax);
+            Console.WriteLine("Total products Tax : " + totalTax);
             Console.ReadKey();
 
         }
