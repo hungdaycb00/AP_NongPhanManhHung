@@ -1,0 +1,7 @@
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\bin\Debug\Exam.exe.config
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\bin\Debug\Exam.exe
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\bin\Debug\Exam.pdb
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\obj\Debug\Exam.csprojAssemblyReference.cache
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\obj\Debug\Exam.exe
+G:\Aptech\AP_NongPhanManhHung\Exam\Exam\obj\Debug\Exam.pdb
